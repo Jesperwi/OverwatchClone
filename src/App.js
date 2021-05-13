@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Videobar from './components/Videobar'
 import './App.css';
+import OverwatchInfo from './components/OverwatchInfo';
+import CelebrationBar from './components/Celebrationbar';
+import CeleLoot from './components/CeleLoot';
+import OverwatchTwo from './components/OverwatchTwo';
+import CharacterPicks from './components/CharacterPicks';
+import FooterBuyNow from './components/FooterBuyNow';
+import FooterOw from './components/FooterOw';
+import FooterOwDetail from './components/FooterOwDetail';
+import FooterLast from './components/FooterLast';
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Navbar />
+    <Videobar/>
+    <OverwatchInfo/>
+    <CelebrationBar/>
+    <CeleLoot/>
+    <OverwatchTwo/>
+    <CharacterPicks/>
+    <FooterBuyNow/>
+    <FooterOw/>
+    <FooterOwDetail/>
+    <FooterLast/>
     </div>
-  );
-}
 
+  )
+}
 export default App;
