@@ -44,7 +44,7 @@ const FooterLast = () => {
     return(
         <CelebrationWrapper>
             <IconWrap>
-            <Icon src="https://blznav.akamaized.net/img/legal/esrb-privacy-certified-ab875794f929a878.jpg" alt="Privacy Certified ESRB" loading="lazy" class="NavbarFooter-additionalLegalEsrb"/>
+            <Icon src="https://blznav.akamaized.net/img/legal/esrb-privacy-certified-ab875794f929a878.jpg" alt="Privacy Certified ESRB" loading="lazy"/>
             <Icon src="https://images.blz-contentstack.com/v3/assets/blt3d2b37a4c9c0ce28/blteda65bf57e501050/5cf6e294cf7aa6330ac66a99/t.424Bl.png"/>
             </IconWrap>
             <CeleTextWrap>

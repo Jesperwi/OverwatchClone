@@ -20,7 +20,7 @@ padding-left: 3em;
 
 const CeleHead = styled.h1`
 font-size: 55px;
-text-transform:uppercase;
+text-transform: uppercase;
 font-style: italic;
 line-height: 18px;
 margin-top: 1em;
@@ -69,11 +69,11 @@ const FooterBuyNow = () => {
         <CelebrationWrapper>
             <Icon src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt138432be14780f67/5dd4935d0386806c8e4e1001/Buy-Footer-Art.png?auto=webp"/>
             <CeleTextWrap>
-            <CeleHead>BEGIN YOUR WATCH</CeleHead>
-            <CeleDesc>
-            Join the fight for the future in the ultimate team-based shooter.
-            </CeleDesc>
-            <CeleButton>Buy Now</CeleButton>
+                <CeleHead>BEGIN YOUR WATCH</CeleHead>
+                    <CeleDesc>
+                    Join the fight for the future in the ultimate team-based shooter.
+                    </CeleDesc>
+                <CeleButton>Buy Now</CeleButton>
             </CeleTextWrap>
         </CelebrationWrapper>
 
